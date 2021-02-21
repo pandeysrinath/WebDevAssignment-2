@@ -1,0 +1,125 @@
+
+  .my-header{
+    padding: 2px 0px 2px 0px;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  .header-part1 {
+    border-top: 4px solid;
+    background-color: whitesmoke;
+    color: #713f3f;
+    text-align: center;
+    font-family: sans-serif;
+    border-bottom: 4px solid;
+}
+  
+  .header-part1 > h1
+  {
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  
+  .main-info > h2
+    {
+    text-align: center;
+    color: rgb(189, 33, 33);
+    font-family: fantasy;
+    font-size: xx-large;
+    border-bottom: 3px solid maroon;
+    }
+
+    .main-info-inner
+  {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+
+    .main-info-inner > a > img 
+  {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 150px;
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+    margin-left: 100px;
+  }
+
+  .main-info-inner > a
+  {
+    text-decoration: none;
+  }
+
+  .main-info-inner > a > img:hover
+  {
+    border-radius: 40px;
+  }
+
+    .main-info-inner > p
+  {
+    font-size: large;
+    font-family: fantasy;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+    width: 400px;
+    margin-left: 100px;
+  }
+
+  
+  footer
+  {
+    size: inherit;
+    background: maroon;
+    color: whitesmoke;
+  }
+
+  .footer-part1 > p
+  {
+    margin: 22%;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 700px;
+    font-size: x-large;
+    font-family: fantasy;
+    font-weight: 400;
+  }
+
+  .footer-part2
+
+  {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    background: #4a0000;
+  }
+
+  .footer-part2 > ul {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+  }
+
+
+  .footer-part2 > ul > li {
+    display: inline-block;
+    display: inline-block;
+    margin: 17px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .footer-part2 > ul > li > span {
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    margin: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    }
