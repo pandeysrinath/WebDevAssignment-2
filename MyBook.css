@@ -1,4 +1,13 @@
+  body{
+    background-image: url('olia-gozha-J4kK8b9Fgj8-unsplash.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
 
+  }
   .my-header{
     padding: 2px 0px 2px 0px;
     width: 100%;
@@ -25,9 +34,11 @@
   .main-info > h2
     {
     text-align: center;
-    color: rgb(189, 33, 33);
-    font-family: fantasy;
-    font-size: xx-large;
+    color: rgb(133, 5, 5);
+    font-style: italic;
+    font-family: 'Tangerine', serif;
+    font-size: 50px;
+    font-weight: 550;
     border-bottom: 3px solid maroon;
     }
 
@@ -61,11 +72,13 @@
     .main-info-inner > p
   {
     font-size: large;
-    font-family: fantasy;
+    font-style: italic;
+    font-family: 'Tangerine', serif;
+    font-size: 40px;
     font-weight: 400;
     display: inline-block;
     vertical-align: middle;
-    width: 400px;
+    width: 500px;
     margin-left: 100px;
   }
 
@@ -79,13 +92,15 @@
 
   .footer-part1 > p
   {
-    margin: 22%;
+    text-align: center;
+    margin:auto;
     margin-top: 0;
     margin-bottom: 0;
     width: 700px;
-    font-size: x-large;
-    font-family: fantasy;
-    font-weight: 400;
+    font-style: italic;
+    font-family: 'Tangerine', serif;
+    font-size: 60px;
+    font-weight: normal;
   }
 
   .footer-part2
